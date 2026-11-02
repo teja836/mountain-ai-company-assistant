@@ -1,0 +1,191 @@
+
+{
+  "company": {
+    "name": "Mountain-AI Technologies",
+    "tagline": "Building Intelligent Digital Solutions",
+    "founded": 2021,
+    "headquarters": "Hyderabad, Telangana, India",
+    "email": "contact@mountainai.example",
+    "phone": "+91-9000000000",
+    "website": "https://mountainai.example",
+    "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "working_hours": "9:30 AM to 6:30 PM IST",
+    "currency": "INR",
+    "description": "A fictional technology company specializing in web development, AI solutions, software products, and business automation."
+  },
+  "departments": [
+    {
+      "id": 1,
+      "name": "Web Development",
+      "description": "Websites, web applications, dashboards, and e-commerce platforms"
+    },
+    {
+      "id": 2,
+      "name": "Artificial Intelligence",
+      "description": "RAG systems, AI assistants, document intelligence, and LLM applications"
+    },
+    {
+      "id": 3,
+      "name": "Automation",
+      "description": "Workflow automation, integrations, and business process automation"
+    },
+    {
+      "id": 4,
+      "name": "Mobile Development",
+      "description": "Cross-platform mobile applications"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Web Development",
+      "category": "Software Development",
+      "description": "Responsive websites, portals, business applications, and e-commerce systems",
+      "technologies": ["React", "Next.js", "JavaScript", "Tailwind CSS", "FastAPI", "Node.js"],
+      "starting_price_inr": 25000,
+      "estimated_duration": "2 to 6 weeks",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "AI Chatbot Development",
+      "category": "Artificial Intelligence",
+      "description": "Conversational AI assistants for company websites and customer support",
+      "technologies": ["Python", "FastAPI", "RAG", "LLMs", "Vector Databases"],
+      "starting_price_inr": 40000,
+      "estimated_duration": "3 to 8 weeks",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "AI Document Intelligence",
+      "category": "Artificial Intelligence",
+      "description": "Search and question answering over company PDFs and documents",
+      "technologies": ["Python", "Embeddings", "RAG", "Chroma", "Qdrant"],
+      "starting_price_inr": 35000,
+      "estimated_duration": "2 to 5 weeks",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Workflow Automation",
+      "category": "Automation",
+      "description": "Automating repetitive business processes and connecting applications",
+      "technologies": ["n8n", "Python", "REST APIs", "Webhooks"],
+      "starting_price_inr": 20000,
+      "estimated_duration": "1 to 4 weeks",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Mobile App Development",
+      "category": "Software Development",
+      "description": "Cross-platform mobile applications for business use",
+      "technologies": ["React Native", "JavaScript", "FastAPI"],
+      "starting_price_inr": 50000,
+      "estimated_duration": "4 to 10 weeks",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Database and API Development",
+      "category": "Backend Development",
+      "description": "Secure REST APIs, database design, and backend integrations",
+      "technologies": ["FastAPI", "Python", "MySQL", "PostgreSQL", "SQLAlchemy"],
+      "starting_price_inr": 15000,
+      "estimated_duration": "1 to 4 weeks",
+      "status": "active"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Mountain Knowledge Assistant",
+      "description": "A document-aware AI assistant that answers questions from company knowledge",
+      "category": "AI Software",
+      "starting_price_inr": 0,
+      "availability": "Prototype"
+    },
+    {
+      "id": 2,
+      "name": "Mountain Flow Automator",
+      "description": "A workflow automation prototype for repetitive business tasks",
+      "category": "Automation Software",
+      "starting_price_inr": 0,
+      "availability": "Prototype"
+    },
+    {
+      "id": 3,
+      "name": "Mountain Insight Dashboard",
+      "description": "A sample dashboard for displaying business metrics and reports",
+      "category": "Business Intelligence",
+      "starting_price_inr": 0,
+      "availability": "Prototype"
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What services does Mountain-AI Technologies provide?",
+      "answer": "The company offers web development, AI chatbot development, document intelligence, workflow automation, mobile application development, and API development."
+    },
+    {
+      "id": 2,
+      "question": "Where is the company located?",
+      "answer": "The fictional company is based in Hyderabad, Telangana, India."
+    },
+    {
+      "id": 3,
+      "question": "Does the company develop RAG chatbots?",
+      "answer": "Yes. AI chatbot development and document-based RAG systems are listed among its sample services."
+    },
+    {
+      "id": 4,
+      "question": "What technologies does the company use?",
+      "answer": "Sample technologies include React, Next.js, Python, FastAPI, Node.js, MySQL, PostgreSQL, vector databases, LLMs, and n8n."
+    },
+    {
+      "id": 5,
+      "question": "How can a customer request a quotation?",
+      "answer": "Customers can contact the company through its listed email address and describe their project requirements."
+    },
+    {
+      "id": 6,
+      "question": "Does the company provide maintenance?",
+      "answer": "Maintenance and support requirements are discussed and agreed upon for each project."
+    },
+    {
+      "id": 7,
+      "question": "How long does web development take?",
+      "answer": "The sample estimated duration is 2 to 6 weeks, depending on the project scope."
+    },
+    {
+      "id": 8,
+      "question": "Does the company provide mobile apps?",
+      "answer": "Yes. Cross-platform mobile app development is listed as a sample service."
+    }
+  ],
+  "policies": [
+    {
+      "id": 1,
+      "name": "Project Scope",
+      "summary": "Requirements, deliverables, and timelines should be agreed upon before development begins."
+    },
+    {
+      "id": 2,
+      "name": "Pricing",
+      "summary": "Listed prices are illustrative starting prices, not binding quotations. Final prices depend on scope and requirements."
+    },
+    {
+      "id": 3,
+      "name": "Customer Support",
+      "summary": "Support arrangements and response expectations should be defined in the project agreement."
+    }
+  ],
+  "contact": {
+    "email": "contact@mountainai.example",
+    "phone": "+91-9000000000",
+    "address": "Hyderabad, Telangana, India",
+    "support_hours": "Monday to Friday, 9:30 AM to 6:30 PM IST"
+  }
+}

@@ -1,0 +1,312 @@
+
+MOUNTAIN-AI TECHNOLOGIES
+Company Knowledge and Documentation
+Document Type: Public Company Profile
+Version: 1.0
+
+1. COMPANY OVERVIEW
+
+Mountain-AI Technologies is a fictional technology company
+based in Hyderabad, Telangana, India. It focuses on software
+development, artificial intelligence, document intelligence,
+and workflow automation.
+
+The company aims to help businesses improve their digital
+presence, organize information, automate repetitive work,
+and build practical AI-powered applications.
+
+Its working philosophy emphasizes useful software, clear
+communication, maintainable architecture, and responsible
+use of artificial intelligence.
+
+All company details in this document are demonstration data
+created for a local AI Company Assistant project.
+
+2. MISSION AND VISION
+
+Mission:
+To help businesses solve practical problems using reliable
+software, accessible AI, and thoughtful automation.
+
+Vision:
+To make intelligent digital tools easier for businesses to
+adopt, understand, and maintain.
+
+Core values:
+- Customer-focused problem solving
+- Clear and honest communication
+- Secure software development
+- Continuous learning
+- Maintainable and testable code
+- Responsible use of AI
+- Data privacy and access control
+
+3. WEB DEVELOPMENT SERVICES
+
+Mountain-AI Technologies provides sample web development
+services for business websites, portals, dashboards,
+e-commerce applications, and internal tools.
+
+The frontend can use React, JavaScript, Next.js, and Tailwind
+CSS. Backend systems can use Python, FastAPI, or Node.js.
+Databases can include MySQL and PostgreSQL.
+
+Typical project stages:
+1. Understand business requirements.
+2. Identify users and required features.
+3. Create the page structure and user interface.
+4. Implement frontend components.
+5. Develop APIs and database integration.
+6. Test functionality and responsiveness.
+7. Review the application and prepare delivery.
+
+A website project may include authentication, forms, search,
+filtering, responsive layouts, dashboards, and API integration.
+
+4. ARTIFICIAL INTELLIGENCE SERVICES
+
+The company's sample AI services include conversational
+assistants, retrieval-augmented generation systems,
+document search, question answering, and AI integrations.
+
+An AI assistant can help users find company information
+without manually reading many documents.
+
+Possible technologies include Python, FastAPI, local language
+models, embedding models, vector databases, and retrieval
+libraries.
+
+AI outputs should be grounded in relevant information.
+When the knowledge base does not contain an answer, the
+assistant should clearly communicate that limitation instead
+of inventing company policies, prices, or facts.
+
+5. RETRIEVAL-AUGMENTED GENERATION (RAG)
+
+RAG combines information retrieval with language generation.
+
+The document ingestion process can include:
+- Loading supported files
+- Extracting text
+- Cleaning unnecessary content
+- Splitting text into chunks
+- Generating embeddings
+- Storing embeddings and metadata
+- Retrieving relevant chunks for a question
+
+When a user asks a question, the retriever searches for
+relevant information. The language model then uses that
+context to produce a readable response.
+
+Document metadata may include:
+- Document identifier
+- Document title
+- Source filename
+- Page number, when available
+- Access classification
+- Last updated date
+
+Documents must be filtered by access permissions before
+their content is provided to the language model.
+
+6. STRUCTURED AND UNSTRUCTURED KNOWLEDGE
+
+Structured information includes services, prices, products,
+FAQs, contact records, and project status. This information
+is suitable for relational database tables.
+
+Unstructured information includes company profiles,
+long-form service descriptions, policies, guides, and
+technical documentation. This information can be indexed
+for semantic retrieval.
+
+The assistant may combine database results and retrieved
+document passages to answer questions that require both.
+
+For example, a question about a service's price and features
+may require a database lookup for the price and document
+retrieval for the detailed features.
+
+7. WORKFLOW AUTOMATION
+
+Workflow automation can connect applications and reduce
+repetitive manual tasks.
+
+Example workflow:
+1. An administrator uploads a new document.
+2. The system validates the file.
+3. Text is extracted and divided into chunks.
+4. Embeddings are generated.
+5. The vector index is updated.
+6. The administrator receives a processing result.
+
+n8n may be used to orchestrate this workflow, where useful.
+For the initial local prototype, the document processing
+pipeline may also run directly through Python and FastAPI.
+
+8. MOBILE APPLICATION DEVELOPMENT
+
+The company lists cross-platform mobile application
+development as a sample service.
+
+Potential features include user authentication, API
+integration, notifications, search, forms, and dashboards.
+
+React Native is a possible frontend technology, while
+FastAPI or another backend can provide data and services.
+
+The required features, platform support, and delivery
+timeline depend on the project requirements.
+
+9. DATABASE AND API DEVELOPMENT
+
+APIs allow the frontend and backend to exchange information.
+
+The sample architecture uses FastAPI to expose endpoints,
+MySQL to store structured information, and a vector database
+to retrieve semantically relevant document chunks.
+
+Database design should consider:
+- Primary keys and relationships
+- Input validation
+- Appropriate data types
+- Query performance
+- Authentication and authorization
+- Backup and recovery requirements
+- Protection of sensitive information
+
+API errors should provide clear messages without exposing
+passwords, tokens, database credentials, or internal stack
+traces to ordinary users.
+
+10. CUSTOMER PROJECT PROCESS
+
+Discovery:
+Understand the customer's problem, goals, audience, and
+expected outcomes.
+
+Planning:
+Define features, scope, priorities, technology choices,
+and acceptance criteria.
+
+Design:
+Plan the user experience, page structure, and interactions.
+
+Development:
+Implement the application in small, testable components.
+
+Testing:
+Check expected behavior, validation, access control,
+error handling, and responsive layouts.
+
+Review:
+Demonstrate the application and collect feedback.
+
+Delivery:
+Provide the agreed deliverables and explain any ongoing
+maintenance or support arrangements.
+
+11. SAMPLE PRICING INFORMATION
+
+The associated structured company data contains illustrative
+starting prices for the listed services.
+
+These amounts are demonstration values only. They do not
+represent verified market rates or binding commercial offers.
+
+A real quotation would depend on features, complexity,
+integrations, deadlines, infrastructure, and support needs.
+
+The chatbot should distinguish between a sample starting
+price and a final project quotation.
+
+12. CUSTOMER SUPPORT
+
+Customers can use the sample company contact information
+stored in the structured dataset.
+
+Support hours in the demonstration dataset are Monday to
+Friday, 9:30 AM to 6:30 PM Indian Standard Time.
+
+Actual support availability, response times, and maintenance
+terms would need to be agreed upon for a real project.
+
+13. SECURITY AND PRIVACY
+
+The public chatbot may answer questions using approved
+public company information.
+
+The administrator interface may access additional internal
+documents and business records, subject to authorization.
+
+Required safeguards include:
+- Authentication for protected endpoints
+- Role-based access control
+- Server-side authorization checks
+- Validation of uploaded files
+- Document-level access filtering
+- Safe handling of credentials
+- Protection against unauthorized data retrieval
+
+A language model's instructions must not be treated as a
+replacement for backend authorization.
+
+14. ADMINISTRATOR RESPONSIBILITIES
+
+An authorized administrator may:
+- Upload approved knowledge documents
+- Update company service records
+- Review document processing status
+- Remove outdated information
+- Review chatbot conversations where permitted
+- Inspect common user questions
+- Verify that answers cite appropriate sources
+
+Administrative operations should be logged when
+appropriate, and access should be restricted to authorized
+accounts.
+
+15. CHATBOT ANSWERING GUIDELINES
+
+The assistant should:
+- Answer directly and clearly
+- Prefer current approved company information
+- Use structured data for exact database facts
+- Retrieve relevant passages for document questions
+- Combine both sources when necessary
+- Explain uncertainty when evidence is missing
+- Avoid inventing prices, policies, or capabilities
+- Keep private administrative information restricted
+- Provide source references when available
+
+16. SAMPLE QUESTIONS FOR TESTING
+
+Public questions:
+- What is Mountain-AI Technologies?
+- What services does the company provide?
+- What is the starting price of AI chatbot development?
+- Which technologies are used for web development?
+- Explain the company's project development process.
+- How does the company use RAG?
+- What are the sample customer support hours?
+- Does the company provide workflow automation?
+
+Administrative questions:
+- Which documents are indexed in the knowledge base?
+- Which service records need updating?
+- Summarize the AI service documentation.
+- Which public questions are asked most frequently?
+- Are there documents with outdated information?
+- Explain how the ingestion pipeline works.
+
+Administrative questions must use authorized data and
+appropriate access permissions.
+
+17. DEMONSTRATION NOTICE
+
+Mountain-AI Technologies, its contact details, products,
+service prices, and business policies in this dataset are
+fictional demonstration content for a local software project.
+
+The information must be replaced with verified company
+information before any real-world business use.

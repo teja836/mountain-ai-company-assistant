@@ -1,0 +1,40 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+dist/
+build/
+.vite/
+
+# Database files
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+
+# Logs
+*.log
+
+# Private documents
+uploads/
+private_documents/
+confidential/
+
+# n8n local data
+.n8n/
+n8n_data/
+
+# Editor and OS
+.idea/
+.DS_Store
+Thumbs.db
